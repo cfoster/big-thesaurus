@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thesaurus xmlns="http://marklogic.com/xdmp/thesaurus">
+ <entry>
+  <term>disco</term>
+  <synonym>
+   <term>club</term>
+  </synonym>
+  <synonym>
+   <term>dance hall</term>
+  </synonym>
+  <synonym>
+   <term>nightclub</term>
+  </synonym>
+  <synonym>
+   <term>nightspot</term>
+  </synonym>
+  <synonym>
+   <term>discotheque</term>
+  </synonym>
+  <synonym>
+   <term>rave</term>
+  </synonym>
+ </entry>
+</thesaurus>

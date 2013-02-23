@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thesaurus xmlns="http://marklogic.com/xdmp/thesaurus">
+ <entry>
+  <term>abracadabra</term>
+  <synonym>
+   <term>hocus-pocus</term>
+  </synonym>
+  <synonym>
+   <term>incantation</term>
+  </synonym>
+  <synonym>
+   <term>invocation</term>
+  </synonym>
+  <synonym>
+   <term>mumbo jumbo</term>
+  </synonym>
+  <synonym>
+   <term>open sesame</term>
+  </synonym>
+  <synonym>
+   <term>spell</term>
+  </synonym>
+ </entry>
+</thesaurus>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thesaurus xmlns="http://marklogic.com/xdmp/thesaurus">
+ <entry>
+  <term>beer</term>
+  <synonym>
+   <term>ale</term>
+  </synonym>
+  <synonym>
+   <term>amber brew</term>
+  </synonym>
+  <synonym>
+   <term>cold one</term>
+  </synonym>
+  <synonym>
+   <term>lager</term>
+  </synonym>
+  <synonym>
+   <term>bevvy</term>
+  </synonym>
+  <synonym>
+   <term>jar</term>
+  </synonym>
+ </entry>
+</thesaurus>

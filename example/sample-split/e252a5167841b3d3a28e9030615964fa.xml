@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thesaurus xmlns="http://marklogic.com/xdmp/thesaurus">
+ <entry>
+  <term>tango</term>
+  <synonym>
+   <term>dance</term>
+  </synonym>
+  <synonym>
+   <term>boogie</term>
+  </synonym>
+  <synonym>
+   <term>make some shapes</term>
+  </synonym>
+  <synonym>
+   <term>get down</term>
+  </synonym>
+  <synonym>
+   <term>bust a move</term>
+  </synonym>
+ </entry>
+</thesaurus>
