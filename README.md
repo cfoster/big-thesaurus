@@ -7,11 +7,11 @@
 
 MarkLogic has shipped with an Thesaurus XQuery library for years. Written in `0.9-ml` it does the job, OK. The library works on the principle that a Thesaurus, including all root terms and term synonyms exist in on one single XML document which can be placed in a Database.
 
-The larger and more complex your Thesaurus, the larger the XML document needs to be. This can pose performance and scaleability issues in MarkLogic Server, to the point of it not even being a viable solution for performing Thesaurus Lookups.
+The larger and more complex your Thesaurus, the larger the XML document needs to be. This can pose performance and scalability issues in MarkLogic Server, to the point of it not even being a viable solution for performing Thesaurus Lookups.
 
-MarkLogic on the other hand is brilliant at storing smaller XML documents, it's also brilliant at handling small structured documents, if we just altered the principle of having one huge XML document by splitting each root term and it's associated synonyms into separate XML files, while also making use of MarkLogic's path range indexes, we could scale Thesauri to a super huge sizes while getting serious performance gains!
+MarkLogic on the other hand is brilliant at storing smaller XML documents, it's also great at handling small structured documents. If we just altered the principle of having one huge XML document by splitting each root term and it's associated synonyms into separate XML files, while also making use of MarkLogic's path range indexes, we could scale Thesauri to super huge sizes while getting serious performance gains!
 
-The Engineers at MarkLogic are very clever and will almost certainly get round to re-vamping their Thesaurus library in the future, but in the meantime, this project should help you create your own custom MarkLogic Thesauri which can be very large and complex, while at the same time getting serious performance benefits for doing thesaurus look-ups as this version will never even touch the disk!
+The Engineers at MarkLogic are very clever and will almost certainly get round to re-vamping their Thesaurus library in the future, but in the meantime, this project should help you create your own custom MarkLogic Thesauri which can be very large and complex, while also getting serious performance gains for doing thesaurus look-ups as this version will never even touch the disk!
 
 ## GETTING THIS INSTALLED IN MY PROJECT
 
