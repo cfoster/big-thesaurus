@@ -39,7 +39,7 @@ Before you ingest any XML files, make sure somethings are setup first.
 
 ### Ingesting XML thesaurus files
 
-Your Thesaurus which should now be split into multiple single entry XML files should be placed in a meaningful MarkLogic directory, such as `/thesaurus/en-GB' for a British English Thesaurus.
+Your Thesaurus which should now be split into multiple single entry XML files should be placed in a meaningful MarkLogic directory, such as `/thesaurus/en-GB` for a British English Thesaurus.
 
 To get the XML documents ingested, you could use RecordLoader, XML Shell (XSH), Information Studio or Content Pump, it's up to you. Just make sure they happen to be in a suitable directory within MarkLogic.
 
