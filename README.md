@@ -1,4 +1,4 @@
-# Super Huge, Super Fast, MarkLogic Thesauri
+# Super Huge, Super Fast, MarkLogic Thesaurus look-ups
 
 
 ## WHY RE-INVENT THE WHEEL?!
