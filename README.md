@@ -19,7 +19,7 @@ The Engineers at MarkLogic are very clever and will almost certainly get round t
 
 You will need to create multiple MarkLogic XML Thesaurus files, where each Thesaurus file has one single `entry` item with it's associated synonyms.
 
-You can create multiple thesaurus XML files from a CSV file by using the `thes2xml` program included in this project, where the first cell of each row is considered to be the root term and all subsequent cells on the same row are considered to be the root term's associated synonyms.
+You can create multiple thesaurus XML files from a CSV file by using the [`thes2xml`](https://github.com/cfoster/big-thesaurus/tree/master/c) program included in this project, where the first cell of each row is considered to be the root term and all subsequent cells on the same row are considered to be the root term's associated synonyms.
 
 If you have one big XML thesaurus right now, you could create an XSLT to split them out into separate files, you will need to make sure that the filenames of each XML file is a MD5 hash of the lower-cased root term name. If you need help with this, contact me.
 
@@ -45,7 +45,7 @@ To get the XML documents ingested, you could use RecordLoader, XML Shell (XSH), 
 
 ### Using the alternatie Thesaurus Library
 
-The XQuery library called `thesaurus.xqy` in this project provides just one function which has the exact same signature found in the original MarkLogic Thesaurus library:
+The XQuery library called [`thesaurus.xqy`](https://github.com/cfoster/big-thesaurus/blob/master/xqy/thesaurus.xqy) in this project provides just one function which has the exact same signature found in the original MarkLogic Thesaurus library:
 
 ```xquery
 
