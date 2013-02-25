@@ -67,7 +67,7 @@ thsr:lookup('/thesaurus/en-GB','tango')
 
 Could produce:
 
-```
+```xml
 <entry xmlns="http://marklogic.com/xdmp/thesaurus">
   <term>tango</term>
   <synonym>
