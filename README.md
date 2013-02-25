@@ -3,7 +3,7 @@
 
 ## WHY RE-INVENT THE WHEEL?!
 
-** Why write a MarkLogic Thesaurus XQuery library when MarkLogic [already provide one](http://docs.marklogic.com/thsr)? **
+**Why write a MarkLogic Thesaurus XQuery library when MarkLogic [already provide one](http://docs.marklogic.com/thsr)?**
 
 MarkLogic has shipped with an Thesaurus XQuery library for years. Written in `0.9-ml` it does the job, OK. The library works on the principle that a Thesaurus, including all root terms and term synonyms exist in on one single XML document which can be placed in a Database.
 
