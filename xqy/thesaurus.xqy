@@ -11,7 +11,7 @@ xquery version "1.0-ml";
  :
  : 2. A path range index added:
  :
- :   path: /thsr:thesaurus/thsr:entry/thsr:synonym/thsr:term
+ :   path: //thsr:synonym/thsr:term
  :   type: string
  :   namespace prefix: thsr=http://marklogic.com/xdmp/thesaurus
  :
