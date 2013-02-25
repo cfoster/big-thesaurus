@@ -1,3 +1,7 @@
+#include <string.h>
+#include "csv.h"
+#include "thes2xml.h"
+
 void cb1_single (char *s, size_t i) {   // Every cell.
 
   if(current_cell == 0) {

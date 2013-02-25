@@ -1,3 +1,8 @@
+#include <string.h>
+#include "md5.h"
+#include "csv.h"
+#include "thes2xml.h"
+
 md5_state_t state;
 md5_byte_t digest[16];
 int di;

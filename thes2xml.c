@@ -7,10 +7,7 @@
 
 #include "md5.h"
 #include "csv.h"
-
-#include "common.c"
-#include "single.c"
-#include "split.c"
+#include "thes2xml.h"
 
 int main (int args, char *argv[])
 {
