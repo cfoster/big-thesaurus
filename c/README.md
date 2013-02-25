@@ -70,7 +70,7 @@ multiple XML: thes2xml --split input.csv thesaurus-directory
 
 ## Compiling and running
 
-* Depends on and needs to be linked with libxml2
+* Must be linked with libxml2 when compiling
 * Tested successfully on a MacOS with gcc 4.2.1
 
 To compile on MacOS, use the command:
