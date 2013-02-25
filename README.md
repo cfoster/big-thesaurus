@@ -21,7 +21,7 @@ You will need to create multiple MarkLogic XML Thesaurus files, where each Thesa
 
 You can create multiple thesaurus XML files from a CSV file by using the [`thes2xml`](https://github.com/cfoster/big-thesaurus/tree/master/c) program included in this project, where the first cell of each row is considered to be the root term and all subsequent cells on the same row are considered to be the root term's associated synonyms.
 
-If you have one big XML thesaurus right now, you could create an XSLT to split them out into separate files, you will need to make sure that the filenames of each XML file is a MD5 hash of the lower-cased root term name. If you need help with this, contact me.
+If you have one big XML thesaurus right now, you could create an XSLT to split them out into separate files. You will need to make sure that the filenames of each XML file is a MD5 hash of the lower-cased root term name. If you need help with this, contact me.
 
 ### Setting up required indexes
 
@@ -41,9 +41,9 @@ Before you ingest any XML files, make sure somethings are setup first.
 
 Your Thesaurus which should now be split into multiple single entry XML files should be placed in a meaningful MarkLogic directory, such as `/thesaurus/en-GB` for a British English Thesaurus.
 
-To get the XML documents ingested, you could use RecordLoader, XML Shell (XSH), Information Studio or Content Pump, it's up to you. Just make sure they happen to be in a suitable directory within MarkLogic.
+To ingest the XML documents, you could use RecordLoader, XML Shell (XSH), Information Studio or Content Pump, it's up to you. Just make sure they happen to be in a suitable directory within MarkLogic.
 
-### Using the alternatie Thesaurus Library
+### Using the alternative Thesaurus Library
 
 The XQuery library called [`thesaurus.xqy`](https://github.com/cfoster/big-thesaurus/blob/master/xqy/thesaurus.xqy) in this project provides just one function which has the exact same signature found in the original MarkLogic Thesaurus library:
 
@@ -54,7 +54,7 @@ declare function lookup(
   $term as xs:string) as element(thsr:entry)*;
 ```
 
-The only difference is that instead of specifying a paths to 1 or more thesaurus XML documents, you specify the directory which holds the split Thesaurus XML files, *without the terminating forward slash*.
+The only difference is that instead of specifying a paths to 1 or more thesaurus XML documents, you must specify the directory which holds the single entry Thesaurus XML documents, *without the terminating forward slash*.
 
 So for instance:
 
