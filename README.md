@@ -52,10 +52,9 @@ The XQuery library called `thesaurus.xqy` in this project provides just one func
 declare function lookup(
   $uri as xs:string*,
   $term as xs:string) as element(thsr:entry)*;
-
 ```
 
-The only difference is that instead of specifying a paths to 1 or more thesaurus XML documents, you specify the directory which holds the split Thesaurus XML files, (*without the terminating forward slash*).
+The only difference is that instead of specifying a paths to 1 or more thesaurus XML documents, you specify the directory which holds the split Thesaurus XML files, *without the terminating forward slash*.
 
 So for instance:
 
@@ -63,7 +62,7 @@ So for instance:
 import module namespace thsr =
   "http://marklogic.com/xdmp/thesaurus" at "/util/thesaurus.xqy";
 
-thsr:lookup('/thesaurus','tango')
+thsr:lookup('/thesaurus/en-GB','tango')
 ```
 
 Could produce:
